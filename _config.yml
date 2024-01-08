@@ -1,0 +1,127 @@
+# Site
+repository: clsung7911/clsung7911.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: SUNGJUNE LEE
+title: Java WEB Developer
+email: clsung7911@gmail.com
+website: www.github.com/clsung7911
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+# twitter_username: facespics
+github_username:  clsung7911
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: sungjune_sj
+linkedin_username: sungjune
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  - Java & Spring & JPA-based backend developer
+  - Has front-end capabilities such as Javascript & ES6 & VUEJS
+  - Experience in the construction and operation management of SI projects in many public institutions and the development of B2G and B2C services
+
+  I am most skilled in: <mark>JAVA</mark> and <mark>Playing Games</mark>
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+    # top-middle / left
+      - layout: left
+        title: Mappick
+        link: mappick.co.kr
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Subscription-type map collaboration service Mapick
+        description: | # this will include new lines to allow paragraphs
+          Mappick is a SaaS (Software as a Service) GIS service that allows you to create maps containing infinite space information and apply them to your work.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: WAVUS
+        link: www.wavus.co.kr
+        # link_text: boringcompany.com
+        sub_title: Java WEB Developer & GIS Developer
+        caption: April 2018 - Present
+        quote: > 
+          A company specializing in land/real estate/intellectual informatization and SI solutions based on spatial information integration solutions
+        description: | # this will include new lines to allow paragraphs
+          - Java & Spring & JPA-based backend developer
+          - Openlayers & Geoserver available web map service
+          - Carrying out numerous public institution projects
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: NamSeoul University
+        caption: 2011 - 2018
+        sub_title: GIS
+        quote: >
+          The Department of Spatial Information Engineering provides advanced expertise in the spatial information convergence industry, which is the core foundation of the 4th industrial revolution, such as drones, self-driving cars, smart mobility, spatial information, smart cities, virtual augmented reality, spatial artificial intelligence (GeoAI), and spatial big data. The educational goal is to cultivate technical manpower.
+        description: | # this will include new lines to allow paragraphs
+          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. 
+          I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in WEB Develpment some of my other interests and hobbies are:
+      - indoor climbing
+      - Gaming
+      - Cooking
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
